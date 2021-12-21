@@ -1,0 +1,99 @@
+dateModified: 1640117746
+email:
+  fromEmail: chris@malven.co
+  fromName: 'Craft Vite'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    a73581f1-a52b-4e6b-a1c1-e953a1542a1e: Common # Common
+    b88e951f-c11b-4abc-acd9-55c9f6c8f811: 'Craft Vite' # Craft Vite
+    fd344bcc-b1ad-4cdc-9c41-e02bc08d2a41: 'Craft Vite' # Craft Vite
+plugins:
+  assetrev:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '1.2'
+  blitz:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.10.0
+  cp-field-inspect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  cp-nav:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.7
+  dumper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  empty-coalesce:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  environment-label:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  expanded-singles:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  imager-x:
+    edition: lite
+    enabled: true
+    schemaVersion: 3.0.0
+  matrixmate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.11
+  snitch:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+  svgplaceholder:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  twig-perversion:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  wordsmith:
+    edition: standard
+    enabled: true
+    schemaVersion: 0.0.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft Vite'
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
