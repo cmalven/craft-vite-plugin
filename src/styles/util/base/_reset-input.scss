@@ -1,0 +1,13 @@
+/*
+Reset Input
+
+Removes the default appearance set by some browsers.
+*/
+
+@mixin reset-input {
+  appearance: none;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}

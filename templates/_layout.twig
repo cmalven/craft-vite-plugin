@@ -1,0 +1,36 @@
+{#
+ # =========================================================
+ # Layout template
+ # =========================================================
+ #
+ # This template defines your site’s global layout. It can be
+ # “extended” by other templates to fill in the gaps.
+ #
+ # See Twig’s Template Inheritance documentation for more details:
+ # http://twig.sensiolabs.org/doc/templates.html#template-inheritance
+
+
+{# --------------------------------------------------------- #}
+{# Output
+{# --------------------------------------------------------- #}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include '_partials/head' %}
+</head>
+
+<body class="{{ bodyClass | default('') }}">
+  <main class="l-container" tabindex="-1" role="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <span class="h-hide-visually">
+    {{ source('_svg/symbol/icon.symbol.svg', ignore_missing = true) }}
+    {{ source('_svg/symbol/full.symbol.svg', ignore_missing = true) }}
+  </span>
+
+  {% js rev('scripts/main.bundle.js') %}
+</body>
+</html>

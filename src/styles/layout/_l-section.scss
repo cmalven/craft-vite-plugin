@@ -1,0 +1,67 @@
+/*
+Layout - Section
+
+Reusable content container, primarily responsible for managing common
+spacing and relationships between various vertical sections of the site.
+*/
+
+@mixin l-section-max {
+  @include outer-padding;
+
+  .l-section__inner {
+    @include max-width;
+  }
+}
+
+@mixin space-top {
+  @include fluid-size(section-vertical, margin-top);
+}
+
+@mixin space-bottom {
+  @include fluid-size(section-vertical, margin-bottom);
+}
+
+
+.l-section {
+
+}
+
+.l-section__inner {
+
+}
+
+
+// ---------------------------------------------------------------
+// Modifier - Max Width
+// ---------------------------------------------------------------
+
+.l-section--max {
+  @include l-section-max;
+}
+
+
+// ---------------------------------------------------------------
+// Modifier - Padding
+// ---------------------------------------------------------------
+
+.l-section--space-top {
+  @include space-top;
+}
+
+.l-section--space-bottom {
+  @include space-bottom;
+}
+
+.l-section--space-vert {
+  @include space-top;
+  @include space-bottom;
+}
+
+
+// ---------------------------------------------------------------
+// Unique styles
+// ---------------------------------------------------------------
+
+// .l-section--foo + .l-section--bar {
+
+// }
