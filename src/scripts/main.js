@@ -1,3 +1,5 @@
+import '../styles/main.scss';
+
 import 'lazysizes';
 import 'lazysizes/plugins/bgset/ls.bgset.js';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
@@ -11,6 +13,6 @@ if (!('object-fit' in document.createElement('a').style)) {
 import { App } from '@malven/modu';
 
 const app = new App({
-  importMethod: module => import(/* webpackChunkName: "[request]" */ './modules/' + module + '.js'),
+  importMethod: module => import('./modules/' + module + '.js'),
 });
 app.init();

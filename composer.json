@@ -13,6 +13,7 @@
     "nystudio107/craft-autocomplete": "^1.0",
     "nystudio107/craft-emptycoalesce": "^1.0",
     "nystudio107/craft-seomatic": "^3.4",
+    "nystudio107/craft-vite": "^1.0",
     "putyourlightson/craft-blitz": "^3.11",
     "sebastianlenz/linkfield": "^1.0",
     "spacecatninja/imager-x": "^3.5",

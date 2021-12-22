@@ -1,3 +1,9 @@
 {
-  "extends": "@malven/stylelint-config"
+  "extends": "@malven/stylelint-config",
+  "ignoreFiles": [
+    "**/*.js",
+    "**/*.twig",
+    "**/*.php",
+    "**/*.md"
+  ]
 }

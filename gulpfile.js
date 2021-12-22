@@ -1,9 +1,26 @@
-const gulp = require('gulp');
-const requireDir = require('require-dir');
-var FwdRef = require('undertaker-forward-reference');
+const { series, parallel } = require('gulp');
+const { images, svg } = require('@malven/gulp-tasks');
 
-gulp.registry(new FwdRef());
+global.GULP_CONFIG = {
+  paths: {
+    dist: 'web/dist/',
+    templateSrc: 'templates/',
+    imageSrc: 'src/images/',
+    imageDist: 'web/dist/images/',
+  },
+};
 
-// Require all tasks in gulp/tasks
-requireDir('./gulp/tasks', { recurse: true });
+// Export tasks that you'd like to run directly
+exports.images = images;
+exports.svg = svg;
 
+// Export default task
+exports.default = series(
+  parallel(
+    images,
+    svg,
+  ),
+  function(done) {
+    done();
+  },
+);

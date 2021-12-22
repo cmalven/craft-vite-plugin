@@ -18,6 +18,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {# Scripts + Styles via Vite #}
+  {{ craft.vite.script("src/scripts/main.js", false) }}
+
   {% include '_partials/head' %}
 </head>
 
@@ -30,7 +34,5 @@
     {{ source('_svg/symbol/icon.symbol.svg', ignore_missing = true) }}
     {{ source('_svg/symbol/full.symbol.svg', ignore_missing = true) }}
   </span>
-
-  {% js rev('scripts/main.bundle.js') %}
 </body>
 </html>

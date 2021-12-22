@@ -1,4 +1,4 @@
-dateModified: 1640117746
+dateModified: 1640119417
 email:
   fromEmail: chris@malven.co
   fromName: 'Craft Vite'
@@ -20,6 +20,7 @@ plugins:
   blitz:
     edition: standard
     enabled: true
+    licenseKey: PCVVBUATPAXU4AP49J28MJP3
     schemaVersion: 3.10.0
   cp-field-inspect:
     edition: standard
@@ -29,6 +30,12 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.0.7
+    settings:
+      originalNavHash:
+        __assoc__:
+          -
+            - d614ac2c-aa66-4f6c-be45-70b4b9f6db79
+            - W3sibGFiZWwiOiJEYXNoYm9hcmQiLCJ1cmwiOiJkYXNoYm9hcmQiLCJmb250SWNvbiI6ImdhdWdlIn0seyJsYWJlbCI6IlNFTyIsInVybCI6InNlb21hdGljIiwiaWNvbiI6Ii9Vc2Vycy9jbWFsdmVuL0NvZGUvY3JhZnQtdml0ZS92ZW5kb3IvbnlzdHVkaW8xMDcvY3JhZnQtc2VvbWF0aWMvc3JjL2ljb24tbWFzay5zdmciLCJzdWJuYXYiOnsiZGFzaGJvYXJkIjp7ImxhYmVsIjoiRGFzaGJvYXJkIiwidXJsIjoic2VvbWF0aWMvZGFzaGJvYXJkIn0sImdsb2JhbCI6eyJsYWJlbCI6Ikdsb2JhbCBTRU8iLCJ1cmwiOiJzZW9tYXRpYy9nbG9iYWwvZ2VuZXJhbCJ9LCJjb250ZW50Ijp7ImxhYmVsIjoiQ29udGVudCBTRU8iLCJ1cmwiOiJzZW9tYXRpYy9jb250ZW50In0sInNpdGUiOnsibGFiZWwiOiJTaXRlIFNldHRpbmdzIiwidXJsIjoic2VvbWF0aWMvc2l0ZS9pZGVudGl0eSJ9LCJ0cmFja2luZyI6eyJsYWJlbCI6IlRyYWNraW5nIFNjcmlwdHMiLCJ1cmwiOiJzZW9tYXRpYy90cmFja2luZy9ndGFnIn0sInBsdWdpbiI6eyJsYWJlbCI6IlBsdWdpbiBTZXR0aW5ncyIsInVybCI6InNlb21hdGljL3BsdWdpbiJ9fX0seyJ1cmwiOiJ1dGlsaXRpZXMiLCJsYWJlbCI6IlV0aWxpdGllcyIsImZvbnRJY29uIjoidG9vbCIsImJhZGdlQ291bnQiOjF9LHsidXJsIjoic2V0dGluZ3MiLCJsYWJlbCI6IlNldHRpbmdzIiwiZm9udEljb24iOiJzZXR0aW5ncyJ9LHsidXJsIjoicGx1Z2luLXN0b3JlIiwibGFiZWwiOiJQbHVnaW4gU3RvcmUiLCJmb250SWNvbiI6InBsdWdpbiJ9XQ==
   dumper:
     edition: standard
     enabled: true
@@ -48,6 +55,7 @@ plugins:
   imager-x:
     edition: lite
     enabled: true
+    licenseKey: DJSVGZCC47UCHR3EU7HSQSR7
     schemaVersion: 3.0.0
   matrixmate:
     edition: standard
@@ -60,6 +68,7 @@ plugins:
   seomatic:
     edition: standard
     enabled: true
+    licenseKey: GZ7SXFM975I4WSAJA7R6CY60
     schemaVersion: 3.0.11
   snitch:
     edition: standard
@@ -78,6 +87,10 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
   typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  vite:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
