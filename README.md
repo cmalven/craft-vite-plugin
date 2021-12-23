@@ -20,4 +20,4 @@ Run `npm start` to start the development server.
 
 ## Deployment
 
-Run `npm run build` to build prepare all assets for deployment.
+Run `npm run build` to build all assets for production deployment.
